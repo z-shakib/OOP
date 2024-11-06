@@ -39,3 +39,5 @@ account_of_shakib = BankAccount("26676", 5000)
 account_of_shakib.deposit(2000)
 account_of_shakib.withdraw(1000)
 print(f"Current Balance {account_of_shakib.get_balance()}TK")
+
+#! Balance is a private attribute, can't access from outside of class
