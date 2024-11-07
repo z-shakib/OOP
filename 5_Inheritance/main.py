@@ -20,3 +20,5 @@ class Dog(Animal):
 
 dog = Dog('Buddy')
 dog.speak()
+
+#! Created a parent class name Animal. than Dog is child class of Animal who inherit Animal Class
